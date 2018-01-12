@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Travler</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body class="page">
     <header class="header page__header">
         <div class="row header__row">
             <div class="logo header__logo">
-                <img src="URL" alt="logo" class="logo__img">
+                <img src="images/Logo-header.png" height="54" width="249" alt="logo"/>
             </div>
             <div class="quicklinks header__quicklinks">
-                <span>quicklinks</span>
+                <span class="header__span header__span_quicklinks">Quicklinks</span>
+                <img src="svg/map-pin.svg"/>
             </div>
-            <div class="dropdown_menu header__dropdown_menu">
-
+            <div class="dropdown header__dropdown">
+                <span class="header__span header__span_dropdown">Select from dropdown</span>
             </div>
-            <div class="search header__search">
-
-        </div>
+            <form class="search-form header__search-form">
+                <input  type="search" class="search search-form__search" placeholder="Search for something here"><button type="submit" class="button search-form__button">
+                </button>
+            </form>
         </div>
         <nav class="navigation header__navigation">
-            <a class="link header__navigation-element">Travel Guide</a>
-            <a class="link header__navigation-element">Services</a>
-            <a class="link header__navigation-element">About</a>
-            <a class="link header__navigation-element">The Tour</a>
-            <a class="link header__navigation-element">How to</a>
-            <a class="link header__navigation-element">Contact</a>
+            <div class="header__navgation-element"><img class="navgation-element__img" src="images/Shape 2.png" height="27" width="26"/><a class="navgation-element__link">Travel Guide</a></div>
+            <div class="header__navgation-element"><img class="navgation-element__img" src="images/Shape 4.png" height="25" width="26"/><a class="navgation-element__link">Services</a></div>
+            <div class="header__navgation-element"><img class="navgation-element__img" src="images/Shape 3.png" height="27" width="21"/><a class="navgation-element__link">About</a></div>
+            <div class="header__navgation-element"><img class="navgation-element__img" src="images/the-tour.png" height="27" width="17"/><a class="navgation-element__link">The Tour</a></div>
+            <div class="header__navgation-element"><img class="navgation-element__img" src="images/Shape 2.png" height="27" width="26"/><a class="navgation-element__link">How to</a></div>
+            <div class="header__navgation-element"><img class="navgation-element__img" src="images/Shape 3.png" height="27" width="21"/><a class="navgation-element__link">Contact</a></div>
         </nav>
     </header>
     <div class="main page__main">

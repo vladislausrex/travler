@@ -1,0 +1,127 @@
+.page {
+    background-color: #EAEAEA;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+.page__header {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.header__row {
+}
+.header__logo {
+    /* flex-grow: 2; */padding-right: 36px;
+}
+.header__span {
+    font-family: Nexa, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.header__quicklinks {
+    /* border-right: 1px solid black; *//* padding-right: 24px; *//* margin: 0; */
+}
+.header__span_dropdown {
+}
+.header__search-form {
+    background-color: #FEFEFE;
+}
+.search-form__search {
+    border: none;
+    padding: 8px;
+    font-family: Nexa, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.search-form__button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #FEFEFE;
+    background-image: url("../images/clock .png");
+    /*padding: 8px;*/
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.header__navigation {
+    max-width: 100%;
+}
+.header__navgation-element {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+.navgation-element__img {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.navgation-element__link {
+    font-family: PT-Sans,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: Nexa-Black;
+    src: local(Nexa-Black),
+    url("../fonts/Nexa-Black.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Nexa-Book;
+    src: local(Nexa-Book),
+    url("../fonts/Nexa-Book.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Nexa-XBold;
+    src: local(Nexa XBold),
+    url("../fonts/Nexa-XBold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: Nexa;
+    src: local(Nexa),
+    url("../fonts/Nexa-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Nexa Bold;
+    src: local(Nexa Bold),
+    url("../fonts/Nexa-Bold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: PT-Sans Bold;
+    src: local(Pt-Sans Bold),
+    url("../fonts/PT-Sans-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: PT-Sans Italic;
+    src: local(PT-Sans Italic),
+    url("../fonts/PT-Sans-Italic.ttf");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Quicksand;
+    src: local(Quicksand),
+    url("../fonts/Quicksand-Bold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
