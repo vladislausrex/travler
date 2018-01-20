@@ -149,6 +149,8 @@
 }
 .icon:hover {
     filter: invert();
+    -webkit-filter: invert();
+    -moz-filter: invert();
 }
 .location {
     display: flex;
@@ -511,11 +513,18 @@
     font-style: normal;
     font-weight: bold;
 }
-
 @font-face {
     font-family: Helvetica;
     src: local(Helvetica),
     url("../fonts/helvetica.otf");
     font-style: normal;
     font-weight: normal;
+}
+
+@-moz-document url-prefix() {
+    .content__icon {
+        position: absolute;
+        margin-top: 174px;
+        margin-left: -62px;
+    }
 }
